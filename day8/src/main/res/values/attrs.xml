@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <!--圆的半径-->
+        <attr name="radius" format="dimension"></attr>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="SearchView">
+        <attr name="searchColor" format="color"/>
+        <attr name="searchSize" format="dimension"/>
+    </declare-styleable>
+</resources>

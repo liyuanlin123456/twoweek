@@ -1,1 +1,1 @@
-include ':app', ':day7'
+include ':app', ':day7', ':xlistview', ':kao07', ':day8'

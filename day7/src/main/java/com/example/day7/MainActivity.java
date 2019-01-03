@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         myView = findViewById(R.id.myview);
         myView.invalidate();//重绘  在主线中进行运行
-        myView.postInvalidate();//重绘   在子线程中进行运行
+        //myView.postInvalidate();//重绘   在子线程中进行运行
     }
 }

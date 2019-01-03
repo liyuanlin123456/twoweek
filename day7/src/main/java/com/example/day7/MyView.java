@@ -30,7 +30,9 @@ public class MyView extends View {
         mPaint = new Paint();
         mPaint.setColor(Color.RED);
         mPaint.setAntiAlias(true);//抗锯齿
-        mPaint.setStyle(Paint.Style.STROKE);//空心
+        //mPaint.setStyle(Paint.Style.FILL);//空心
+        //mPaint.setStyle(Paint.Style.STROKE);//实心
+        mPaint.setStyle(Paint.Style.FILL_AND_STROKE);//实心空心
         mPaint.setStrokeWidth(20);
     }
     /*
